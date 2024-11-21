@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Afacad+Flux:wght@100..1000&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Cinzel:wght@400..900&family=Cookie&family=Crushed&family=Fruktur:ital@0;1&family=Graduate&family=Great+Vibes&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Mate:ital@0;1&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Pirata+One&family=Press+Start+2P&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>O Jardim das Borboletas Mágicas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/passo0.jpg" alt="">
+            <p>Em uma tarde tranquila, enquanto folheava um livro de histórias antigas na biblioteca da escola, encontrei uma carta misteriosa, assinada por uma antiga guardiã das borboletas. Nela, ela conta sobre um jardim escondido, onde borboletas mágicas guardam segredos capazes de transformar qualquer ser. A carta traz pistas sobre como encontrar esse jardim encantado, e decido seguir as orientações. O que me aguarda?</p>
+            <button class="btn-proximo" data-proximo="1">Ir para o Vale das Borboletas Azuis</button>
+            <button class="btn-proximo" data-proximo="2">Procurar na Floresta das Borboletas Douradas</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você chega ao Vale das Borboletas Azuis, um lugar onde o céu se mistura com o azul das asas dessas criaturas mágicas. No centro do vale, uma borboleta gigante pousa sobre uma flor luminosa. Ela parece te observar e espera que você tome uma decisão importante.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir a borboleta gigante até a floresta</button>
+            <button class="btn-proximo" data-proximo="4">Sentar e esperar por mais pistas</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você segue para a Floresta das Borboletas Douradas, onde o brilho das asas douradas ilumina o caminho. Lá, as árvores cantam uma melodia suave, e você sente uma presença mágica ao seu redor. De repente, uma borboleta dourada pousa em sua mão e lhe entrega uma pétala cintilante que parece conter um segredo.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a pétala dourada</button>
+            <button class="btn-proximo" data-proximo="6">Seguir a borboleta até um ponto mais profundo da floresta</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>A borboleta gigante te leva até uma clareira no meio da floresta, onde uma grande árvore mágica com folhas prateadas brilha sob a luz da lua. No tronco da árvore, há uma inscrição que revela a próxima pista: "Somente os corações puros podem ver as asas da verdade." Você sente que algo grande está prestes a acontecer.</p>
+            <button class="btn-proximo" data-proximo="7">Olhar ao redor em busca da verdade</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você decide descansar e esperar. De repente, uma pequena borboleta azul pousa sobre seu ombro e lhe sussurra algo no ouvido. A mensagem é clara: "A paciência é a chave para ver o invisível". Um brilho suave surge no ar, iluminando o caminho para um portal escondido entre as árvores.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o portal iluminado</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você observa a pétala dourada e, ao tocá-la, ela começa a brilhar intensamente, revelando um mapa encantado. Ele indica que a próxima pista está em um lago misterioso, coberto por uma névoa mágica. O mapa também contém uma palavra-chave: "Revelação".</p>
+            <button class="btn-proximo" data-proximo="8">Seguir para o lago</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>A borboleta dourada voa cada vez mais rápido, levando você até uma clareira iluminada, onde uma flor gigante começa a se abrir. No centro, uma borboleta rara de asas esmeralda brilha com uma luz intensa. Ao se aproximar, a borboleta fala: "A chave para o jardim está escondida dentro do seu coração. Siga sua intuição."</p>
+            <button class="btn-proximo" data-proximo="9">Seguir minha intuição</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao seguir pelo portal iluminado, você chega a uma gruta secreta onde uma borboleta mágica, de asas iridescentes, te guia até o centro do jardim. Lá, o jardim das borboletas mágicas se revela, mais lindo do que você jamais imaginou. Borboletas de todas as cores dançam ao seu redor, enquanto uma melodia encantadora preenche o ar.</p>
+            <button class="btn-proximo" data-proximo="10">Entrar no jardim</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você chega ao lago misterioso, onde as águas são cristalinas. Ao olhar para o reflexo na água, uma borboleta dourada aparece na superfície, sussurrando a última pista: "O coração que busca encontrará o caminho." O lago começa a brilhar e, ao tocar as águas, um caminho secreto se abre para o jardim das borboletas mágicas.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir o caminho iluminado</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Seguindo sua intuição, você encontra um jardim escondido atrás de uma parede de flores mágicas. Quando você se aproxima, uma borboleta de asas brilhantes pousa em sua mão e, com um toque suave, a parede de flores se abre, revelando o jardim das borboletas mágicas.</p>
+            <button class="btn-proximo" data-proximo="10">Explorar o jardim</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/passo10.jpg" alt="">
+            <p>Dentro do jardim encantado, você encontra borboletas de todas as cores, cada uma com um poder único. Elas começam a rodeá-lo, e você sente uma conexão profunda com elas. No centro do jardim, uma borboleta dourada pousa em sua cabeça e sussurra: "O verdadeiro poder não está em encontrar o jardim, mas em entender a magia que ele desperta em seu coração".</p>
+            <button class="btn-proximo" data-proximo="11">Entender a magia do jardim</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você decide se tornar um guardião do jardim e proteger as borboletas mágicas. Com o tempo, você aprende a compreender a linguagem delas, e cada borboleta te ensina um segredo profundo da natureza e da vida. A magia que você descobriu dentro do jardim se espalha por todo o mundo, transformando a natureza ao seu redor.</p>
+            <button class="btn-proximo" data-proximo="12">Compartilhar o segredo das borboletas</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/passofinal.jpg" alt="">
+            <p>Você retorna ao mundo com os segredos das borboletas mágicas em seu coração. Agora, cada borboleta que você encontra é um lembrete do poder que reside dentro de você, capaz de transformar tudo ao seu redor com sabedoria e beleza.</p>
+        </div>
+
+
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
